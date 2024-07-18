@@ -1,0 +1,30 @@
+<!--
+Descripción del ejercicio: Solución al problema de registro de un listado de compras
+
+El ejercicio tiene como objetivo abordar un problema común en la programación de aplicaciones de registro de compras, donde al intentar agregar un producto con su respectivo precio, este no se muestra correctamente en el listado final. El problema podría radicar en diversos aspectos del proceso de registro y visualización de datos.
+
+Resultado esperado: Una vez completado el ejercicio, se espera que el programa pueda registrar productos con sus precios y mostrarlos correctamente en un listado final, asegurando una experiencia de usuario fluida y sin errores aparentes.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras con Errores Detallados</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras con Errores Detallados</h1>
+        <label for="item" id="articulo">Artículo:</label>
+        <input type="text" id="item">
+        <label for="price" id="precio">Precio:</label>
+        <input type="text" id="price">
+        <button>Agregar a la Lista</button>
+        <ul id="shoppingList"></ul>
+        <p id="total">Total: $0.00</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
